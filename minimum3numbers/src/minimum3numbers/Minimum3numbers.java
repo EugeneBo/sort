@@ -22,10 +22,9 @@ public class Minimum3numbers {
 
         System.out.print("Result: ");
 
-        if (a<=b && a<=c) System.out.println(a);
-        else if (a>=b && b<=c) System.out.println(b);
-             else  System.out.println(c);
-
+        if (a <= b && a <= c) System.out.println(a);
+        else if (a >= b && b <= c) System.out.println(b);
+        else System.out.println(c);
 
 
     }
