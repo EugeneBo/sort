@@ -27,6 +27,7 @@ public class Minimum3numbers {
         else if (b<=c) System.out.println(b);
              else  System.out.println(c);
 
+
     }
 }
 

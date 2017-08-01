@@ -3,9 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/InsideSort3Numbers/InsideSort3Numbers.iml" filepath="$PROJECT_DIR$/InsideSort3Numbers/InsideSort3Numbers.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Minimum4numbers/Minimum4numbers.iml" filepath="$PROJECT_DIR$/Minimum4numbers/Minimum4numbers.iml" />
       <module fileurl="file://$PROJECT_DIR$/minimum2numbers/minimum2numbers.iml" filepath="$PROJECT_DIR$/minimum2numbers/minimum2numbers.iml" />
       <module fileurl="file://$PROJECT_DIR$/minimum3numbers/minimum3numbers.iml" filepath="$PROJECT_DIR$/minimum3numbers/minimum3numbers.iml" />
-      <module fileurl="file://$PROJECT_DIR$/sort.iml" filepath="$PROJECT_DIR$/sort.iml" />
+      <module fileurl="file://C:\Users\deafm\Desktop\Java\HOMEWORK\sort\sort.iml" filepath="C:\Users\deafm\Desktop\Java\HOMEWORK\sort\sort.iml" />
       <module fileurl="file://$PROJECT_DIR$/sort2numbers/sort2numbers.iml" filepath="$PROJECT_DIR$/sort2numbers/sort2numbers.iml" />
       <module fileurl="file://$PROJECT_DIR$/sort3numbers/sort3numbers.iml" filepath="$PROJECT_DIR$/sort3numbers/sort3numbers.iml" />
     </modules>
