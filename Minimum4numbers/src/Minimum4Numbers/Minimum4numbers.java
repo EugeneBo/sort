@@ -1,4 +1,5 @@
 package Minimum4Numbers;
+
 import java.util.Scanner;
 
 public class Minimum4numbers {
@@ -7,7 +8,7 @@ public class Minimum4numbers {
 
         Scanner sc = new Scanner(System.in);
 
-        int a, b, c, d;
+        int a, b, c, d, min;
 
         System.out.println("Input three numbers:");
 
@@ -23,12 +24,12 @@ public class Minimum4numbers {
         System.out.print("d: ");
         d = sc.nextInt();
 
-        System.out.print("Result: ");
+        min = a;
 
-        if (a<=b && a<=c && a<=d) System.out.println(a);
-        else if (b<=c && b<=d) System.out.println(b);
-             else if (c<=d) System.out.println(c);
-                  else System.out.println(d);
+        if (min > b) min = b;
+        if (min > c) min = c;
+        if (min > d) min = d;
 
+        System.out.print("Result: " + min);
     }
 }
