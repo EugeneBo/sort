@@ -7,7 +7,7 @@ public class Sort3numbers {
 
         Scanner sc = new Scanner(System.in);
 
-        int a, b, c;
+        int a, b, c, mid, min, max;
 
         System.out.println("Input three numbers:");
 
@@ -20,28 +20,45 @@ public class Sort3numbers {
         System.out.print("c: ");
         c = sc.nextInt();
 
-        System.out.print("Result: ");
+        System.out.println("Result: ");
+
+        min = a;
+        if (min > b) {min=b;}
+        if (min > c) {min=c;}
+        System.out.println("min = "+min);
 
 
-        if (a < b) {
-            if (b < c)
-                System.out.print(a + ", " + b + ", " + c);
-            else {
-                if (a > c)
-                    System.out.print(c + ", " + a + ", " + b);
-                else
-                    System.out.print(a + ", " + c + ", " + b);
-            }
-        } else {
-            if (b > c)
-                System.out.println(c + ", " + b + ", " + a);
-            else {
-                if (a > c)
-                    System.out.print(b + ", " + c + ", " + a);
-                else
-                    System.out.print(b + ", " + a + ", " + c);
-            }
-        }
+        max = a;
+        if (max < b) {max=b;}
+        if (max < c) {max=c;}
+        System.out.println("max = "+max);
+
+
+        mid=a;
+        if (a>=min && a!=max) {mid=a;}
+        if (b>=min && b!=max) {mid=b;}
+        if (c>=min && c!=max) {mid=c;}
+        System.out.println("mid = "+mid);
+
+        System.out.println(min+" "+mid+" "+max);
+//        if (temp > b) {a = b; b = temp; }
+//        if (temp > c) {a = c; c = temp; }
+
+
+
+//        System.out.print(temp);
+//        min = temp;
+//
+//        temp = a;
+//        if (temp > b && b > min) temp = b;
+//        if (temp > c && c > min) temp = c;
+//        System.out.print(temp);
+//        mid = temp;
+//
+//        temp = a;
+//        if (temp > b && b > mid) temp = b;
+//        if (temp > c && c > mid) temp = c;
+//        System.out.print(temp);
 
 
     }
